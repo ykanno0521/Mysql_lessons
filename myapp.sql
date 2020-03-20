@@ -26,4 +26,4 @@ insert into users (name, score) values ('honda', 4.4);
 -- select * from users where score >= 6.0;
 -- select * from users where score >= 3.0 and score <= 6.0;
 
-select * from users;
+select * from users where name like '_a%';
